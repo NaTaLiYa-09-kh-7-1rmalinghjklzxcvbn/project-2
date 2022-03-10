@@ -60,6 +60,9 @@ body {
 .sect-hov:hover {
     filter: brightness(60%);
 }
+.s-h {
+    padding: 0 1% 0 1%;
+}
 .logo1 {
     padding: 15px 20px 16px 20px;
 }
@@ -175,7 +178,7 @@ padding-top: 22px;
     justify-content: space-around;
     margin: 0 auto;
     padding-top: 65px;
-    width: 98%;
+    width: 100%;
 }
 .section {
     width: 1140px;
@@ -185,7 +188,7 @@ padding-top: 22px;
     padding-right: 30px;
 }
 .accesuar {
-    padding-top: 30px;
+    padding-top: 1%;
 }
 .h1 {
     font-size: 30px;
@@ -585,12 +588,59 @@ line-height: 28px;
     flex-direction: row;
     width: 96%;
 }
-
+}      
+@media  (max-width: 767px){
+  .header_un {
+      width: 375px;
+  }  
+  .header_l {
+      width: 30%;
+  }
+  .ic-menu {
+      padding-right: 1%;
+  }
+.icn-1 {
+    display: none;
+}
+.man-1 {
+    display: none;
+}
+.top_text {
+font-size: 38px;
+line-height: 46px;
+margin-left: 15%;
+}
+.center-adopt {
+    flex-direction: column;
+}
+.s-h-1 {
+    padding-top: 64px;
+}
+.sect-hov-acces {
+  width: 765px;
+  position: relative;
+}
+.section {
+    padding: 10% 3% 10% 3%;
+}
+.text-adopt {
+    font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+margin-top: -100px;
+    left: 140px;
+}
+.ad {
+    font-size: 24px;
+line-height: 28px;
+color: #F16D7F;
+}   
 /*страница каталог*/
 .header-under {
     height: 148px;
 background: #F8F3F4;
-
 }
 .header-tx {
     font-size: 24px;
@@ -618,7 +668,6 @@ color: #636363;
 .pa-c-NA {
     color: #636363;
 }
-
 .content {
     display: flex;
 justify-content: space-between;
@@ -678,7 +727,6 @@ text-decoration: none;
 }
 .chb {
   margin: 10px;
-
 }
 .menu_li-c {
     font-size: 14px;
@@ -775,7 +823,6 @@ ul {
 font-size: 16px;
 line-height: 19px;
 color:#E1E1E1;
-
 }
 .namber:hover {
     color: #EF5B70;
