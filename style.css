@@ -189,15 +189,34 @@ padding-top: 22px;
 }
 .accesuar {
     padding-top: 1%;
+    position: relative;
 }
-.h1 {
+.text-adopt {
+    font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+margin-top: -12%;
+    left: 43%;
+}
+.ad {
+    font-size: 24px;
+line-height: 28px;
+color: #F16D7F;
+}   
+.sect-hov-acces {
+    width: 100%;
+  
+  }
+.bl-centr-hed {
     font-size: 30px;
 line-height: 36px;
 color: #222222;
 text-align: center;
 padding-top: 96px;
 }
-.p {
+.bl-center-tx {
     font-size: 14px;
 line-height: 17px;
 color: #9F9F9F;
@@ -338,7 +357,7 @@ padding-top: 10px;
     justify-content: center;
 }
 .blok1 {
-    
+
     background: #222224;
     padding-top: 103px;
     padding-bottom: 104px;
@@ -522,6 +541,9 @@ color: #000000;
 .text {
     width: 50%;
 }
+.text-adopt {
+    left: 38%;
+}
 .cart-center-in {
     width: 232px;
     width: 96%;
@@ -591,10 +613,14 @@ line-height: 28px;
 }      
 @media  (max-width: 767px){
   .header_un {
-      width: 375px;
+      width: 765px;
+      width: 100%;
   }  
   .header_l {
       width: 30%;
+  }
+  .header_r {
+      padding-right: 2%;
   }
   .ic-menu {
       padding-right: 1%;
@@ -617,26 +643,69 @@ margin-left: 15%;
     padding-top: 64px;
 }
 .sect-hov-acces {
-  width: 765px;
+  max-width: 765px;
   position: relative;
+  background-size: cover;
 }
 .section {
     padding: 10% 3% 10% 3%;
 }
+.accesuar {
+    height: 111px;
+}
 .text-adopt {
-    font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: #FFFFFF;
-position: absolute;
-margin-top: -100px;
-    left: 140px;
+    left: 35%;
 }
 .ad {
     font-size: 24px;
 line-height: 28px;
 color: #F16D7F;
+}
+.bl-centr-hed  {
+    padding-top: 0;
 }   
+.bl-center-tx {
+padding-bottom: 10%;
+}
+.underblok {
+    width: 100%;
+}
+.item {
+    width: 375px;
+    width: 96%;
+    padding: 2%;
+    margin: 0;
+}
+.text-foot {
+    width: 100%;
+}
+.underblok-down {
+    flex-direction: column-reverse;
+}
+.section_all {
+    width: 765px;
+    width: 100%;
+    margin: 2%;
+}
+.copyright {
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+.contact {
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+.email {
+ 
+    padding: 17px 34px 17px 18px;
+}
+.subscribe {
+    padding: 17px 20px 17px 20px;
+}
+.
+}
 /*страница каталог*/
 .header-under {
     height: 148px;
